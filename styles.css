@@ -1,0 +1,54 @@
+body {
+    background-color: #f2f2f2;
+}
+
+.title {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    background-color: #2980B9;
+    padding: 10px;
+    color: white;
+    height: 160px;
+    position: relative;
+    padding-left: 10px;
+    text-align: center;
+    padding-right: 10px;
+}
+.title h2 a {
+    text-decoration: underline;
+}
+
+
+.title h5 {
+    width: 600px;
+    margin-left: auto; margin-right: auto;
+    font-weight: lighter;
+    position: relative;
+    top: 40px;
+}
+.title h2 {
+    font-weight: lighter;
+    font-size: 18px;
+    color: #afc3e0;
+    position: relative;
+    top: 50px;
+}
+.title a {
+    text-decoration: none;
+    color:white;
+}
+
+.icon {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+nav-item:hover {
+    background-color: rgba(0,0,0,0.5) !important;
+}

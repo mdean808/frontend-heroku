@@ -1,0 +1,26 @@
+{
+  "name": "student-corner",
+  "version": "0.0.1",
+  "description": "Student Corner",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "materialize-css": "^0.100.2",
+    "materialize-js": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdean808/frontend-heroku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdean808/frontend-heroku/issues"
+  },
+  "homepage": "https://github.com/mdean808/frontend-heroku#readme"
+}
