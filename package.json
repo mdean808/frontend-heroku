@@ -4,6 +4,7 @@
   "description": "Student Corner",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "materialize-css": "^0.100.2",
     "materialize-js": "^1.0.0"
