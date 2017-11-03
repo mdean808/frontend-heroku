@@ -15,10 +15,11 @@ function loadProfile() {
 		data: {
 			user: getQueryString('id')
 		},
-		success: function (results) {
-			console.log(results);
+		success: function (profile) {
+			console.log(profile);
 			$('#name').val('John');
-			var projectAmount = results.projectAmount;
+			var projects = profile.projectsJSON;
+			var projectAmount = projects.length;
 			for(var i = 0; i < projectAmount; i++) {
 				$('#projects').append('<div class="card horizontal">\n' +
 					'        <div class="card-image center" style="padding-left: 10px; margin-top: 10px;">\n' +

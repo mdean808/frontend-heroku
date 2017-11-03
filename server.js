@@ -44,13 +44,13 @@ var exampleJson = '{\n' +
 	'}\n';
 
 exampleJson = JSON.parse(exampleJson);
+
 app.post('/get-userinfo', function (req, res) {
 	var id = req.body.id;
 	console.log(id);
 	res.writeHead(200, {'Content-Type': 'application/json'});
 	res.end(JSON.stringify({
 		user: exampleJson.profiles[0].id,
-		projectAmount: exampleJson.profiles[0].projects.length,
 		projectsJSON: exampleJson.profiles[0].projects
 	}));
 });
